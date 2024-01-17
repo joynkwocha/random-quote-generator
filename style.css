@@ -1,0 +1,53 @@
+body {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  background-color: rgb(43, 40, 40);
+  box-shadow: 5px 5px 10px 0 rgba(115, 114, 114, 0.5);
+  height: 250px;
+  width: 500px;
+  margin: auto;
+}
+
+.generate {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.generate:hover {
+  width: 90px;
+  transform: scale(1.2);
+}
+
+.text {
+  color: magenta;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: thin;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.author {
+  color: white;
+  font-family: "Petit Formal Script", cursive;
+  position: absolute;
+  top: 60%;
+  /* right:40%; */
+  overflow: hidden;
+  text-wrap: wrap;
+}
